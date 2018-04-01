@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-03-28 19:51:15
+ * @version $Id$
+ */
+
+body{
+	background-color: #333;
+}
+.container{
+	background-color: #fff;
+	width: 500px;
+	font-family: calibri;
+	border-collapse: collapse;
+	line-height: 30px;
+}
+
+.date{
+	font-size: 100px;
+	font-weight: bold;
+	background-color: #f44a;
+	color: #fff;
+	line-height: 80px;
+}
+
+.month{
+	font-size: 50px;
+	background-color: #f44a;
+	color: #fff;
+	line-height: 60px;
+}
+
+.day{
+	color: #f44a;
+	line-height: 50px;
+	text-align: center;
+}
+
+.number{
+	text-align: center;
+}

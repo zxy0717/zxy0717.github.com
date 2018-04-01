@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-03-27 22:26:15
+ * @version $Id$
+ */
+
+.container{
+	width: 400px;
+	border: 1px;
+	border-style: solid;
+	border-spacing: 0px;
+	line-height: 13px;
+	font-size: 13px;
+}
+
+.nutrition{
+	line-height: 50px;
+ 	font-size: 35px;
+ 	font-weight: bold;
+ }
+
+ .text{
+ 	font-size: 10px;
+ 	line-height: 13px;
+ }
