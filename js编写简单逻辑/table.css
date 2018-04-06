@@ -14,3 +14,7 @@ table{
 	width: 400px;
 	height: 200px;
 }
+
+.container tr{
+	height: 50px;
+}
