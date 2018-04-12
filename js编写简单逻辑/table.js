@@ -38,6 +38,10 @@ function date(){
 //点击单元格21,将在现有单元格后面插入一行
 function append(){
 	var table=document.createElement("tr");
+  var td1=document.createElement("td");
+  var td2=document.createElement("td");
+  table.appendChild(td1);
+  table.appendChild(td2);
 	var element=document.getElementById("tbl");
 	element.appendChild(table);
 }
