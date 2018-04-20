@@ -10,29 +10,29 @@
 body{
 	margin: 0 auto;
 	margin-top: 10px;
-	width: 50%;
+	width: 90%;
 	min-width: 700px;
 }
 
 
 .title1{
-	font-size: 12px;
+	font-size:20px;
 	color: #0b1746;
 	margin-left: 30px;
 }
 
 .title2{
-	font-size: 12px;
+	font-size: 20px;
 	color: #0b1746;
 	margin-left: 30px;
 }
 .title3{
-	font-size: 12px;
+	font-size: 20px;
 	color: #0b1746;
 	margin-left: 30px;
 }
 .title4{
-	font-size: 12px;
+	font-size: 20px;
 	color: #0b1746;
 	margin-left: 30px;
 }
@@ -45,7 +45,7 @@ body{
 	background-color: white;
 	float: right;
 	color: #429bf4;
-	font-size: 12px;
+	font-size: 20px;
 }
 
 .boxes{
@@ -56,33 +56,33 @@ body{
 
 .box1{
 	border: 2px solid #ccc;
-	width: 30%;
-	height: 230px;
+	width: 31%;
+	height: 300px;
 	float: left;
 }
 
 .box2{
 	position: relative;
-	left: 5%;
-	right: 5%;
+	left: 3%;
+	right: 3%;
 	border: 2px solid #ccc;
-	width: 30%;
-	height: 230px;
+	width: 31%;
+	height: 300px;
 	float: left;
 }
 
 .box3{
     position: relative;
-	left: 10px;
+	left: 0%;
 	border: 2px solid #ccc;
-	width: 30%;
-	height: 230px;
+	width: 31%;
+	height: 300px;
 	float: right;
 }
 
 .photo{
-	width: 50px;
-	height: 50px;
+	width: 70px;
+	height: 70px;
 	margin: 0 auto;
 	margin-top: 20px;
 	margin-left: 40%; 
@@ -94,28 +94,23 @@ body{
 	color: #0b1746;
 	text-align: center;
 	font-weight: bold;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
+	font-size: 20px;
 }
 
 .t2{
 	color: #0b1746;
 	text-align: center;
-	font-size: 12px;
+	font-size: 19.5px;
+	height: 90px;
 }
 
 .t3{
 	color: #429bf4;
 	text-align: center;
-	font-size: 12px;
-	margin-top: 15px;
+	font-size: 19.5px;
 }
 
-.t4{
-	color: #429bf4;
-	text-align: center;
-	font-size: 12px;
-	margin-top: 30px;
-}
 
 .P{
 	position: relative;
@@ -125,6 +120,7 @@ body{
 .T{
 	color: #0b1746;
 	text-align: center;
+	font-size: 40px;
 }
 
 .t5{
@@ -133,7 +129,7 @@ body{
 	margin: 10%;
 	margin-top: 10px;
 	margin-bottom: 30px;
-	font-size: 13px;
+	font-size: 22px;
 	
 }
 
@@ -142,50 +138,50 @@ body{
 	border-radius: 5px;
 	border: 1px solid #ccc;
 	width: 40%;
-	height: 230px;
+	height: 350px;
 }
 
 .t6{
-	font-size: 12px;
+	font-size: 15px;
 	color: #429bf4;
 	margin-top: 30px;
-	margin-left: 10%;
+	margin-left: 7%;
 	margin-bottom: 10px;
 }
 
 .box{
 	border: 1px solid #ccc;
-	width: 10%;
-	height: 20px;
-	margin-left: 3%;
+	width: 12%;
+	height: 40px;
+	margin-left: 2%;
 	margin-top: 10px;
 	float: left;
 }
 
 .box-1{
-	margin-left: 10%;
+	margin-left: 7%;
 	border-color: #429bf4;
 }
 
 .box-2{
-	margin-left: 10%;
+	margin-left: 7%;
 }
 
 .b1{
 	position: relative;
-	top: -200px;
+	top: -320px;
 	left: 48%;
 	width: 40%;
-	height: 150px;
+	height: 250px;
 	background-color: #0b1746;
 }
 
 .b2{
 	position: relative;
-	top: -200px;
+	top: -320px;
 	left: 48%;
 	width: 40%;
-	height: 20px;
+	height: 30px;
 	background-color: #203778;
 }
 
@@ -194,15 +190,15 @@ body{
 	color: #0b1746;
 	margin: 3%;
 	margin-bottom: 50px;
-	font-size: 13px;
+	font-size: 19.5px;
 	
 }
 
 .back{
 	position: relative;
-	top: -185px;
+	top: -280px;
 	background-color: #F5F5F5;
-	height: 550px;
+	height: 670px;
 }
 
 .T1{
@@ -212,7 +208,7 @@ body{
 	border-left: 1px solid #ccc;
 }
 .T1 td{
-	width: 15px;
+	width: 20px;
 }
 
 .T1 tr:first-child{
@@ -220,7 +216,7 @@ body{
 }
 
 .T1 tr{
-	height: 50px;
+	height: 60px;
 }
 
 .T1 tr:first-child{
@@ -230,23 +226,30 @@ body{
 .Q{
 	position: relative;
 	width: 30%;
-	top: -250px;
+	top: -290px;
 	left: 35%;
 	float: inherit;
+}
+
+.image{
+	height: 50px;
+	width: 50px;
 }
 
 .q1{
 	font-weight: bold;
 	margin-bottom: 10px;
+	font-size: 19.5px;
 }
 
 .q2{
-	font-size: 12px;
+	font-size: 16px;
+	width: 300px;
 }
 
 .Q2{
 	position: relative;
-	top: -135px;
+	top: -180px;
 	left: 100%;
 }
 
@@ -257,14 +260,14 @@ body{
 
 .Q4{
 	position: relative;
-	top: -225px;
+	top: -265px;
 	left: 100%;
 }
 
 .back1{
 	position: relative;
-	top: -185px;
-	height: 150px;
+	top: -280px;
+	height: 200px;
 	background-color: #0b1746;
 	float: inherit;
 }
@@ -275,18 +278,22 @@ body{
 .w1{
 	color: #b0b2b3;
 	width: 25%;
-	font-size: 5px;
+	font-size: 16px;
+	width: 250px;
 }
+
 .photo1{
 	margin-top: 30px;
+	height: 50px;
+	width: 50px;
 }
 
 .table{
 	color: #b0b2b3;
 	position: relative;
 	left: 30%;
-	top: -85px;
-	font-size: 5px;
+	top: -100px;
+	font-size: 16px;
 }
 
 .col{
@@ -298,9 +305,9 @@ body{
 }
 
 .col td{
-	width: 20px;
+	width: 70px;
 }
 
 .table td:nth-child(2n+1){
-	width: 100px;
+	width: 150px;
 }
