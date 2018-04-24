@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-04-24 09:47:50
+ * @version $Id$
+ */
+
+.big-box{
+	background-color: #eee;
+	height: 900px;
+	width: 1000px;
+	border: 1px #bbb solid;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+} 
+
+.box{
+	margin-top: 25px;
+	height: 390px;
+	width: 300px;
+	border: 1px #bbb solid;
+	background-color: #fff;
+}
+
+.image{
+	width: 300px;
+	height: 290px;
+}
+
+.text{
+	position: relative;
+	border-width: 1px;
+	border-bottom-width: 1px;
+	border-color: rgb(0,0,0);
+	height: 100px;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+.t1{
+	font-size: 13px;
+}
+
+.t2{
+	font-weight: bold;
+	font-size: 13px;
+	color: rgb(247,11,66);
+}
+
+.t3{
+	font-size: 13px;
+	color: #bbb;
+}
+
+.tab3 tr{
+	height: 50px;
+}
+
+.tab3 td{
+	width: 50px;
+}
+
+.tab3 td:first-child{
+	width: 15px;
+}
+
+.t4{
+	color: rgb(247,11,66);
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: right;
+}
+
+.t5{
+	color: rgb(247,11,66);
+	font-weight: bold;
+	vertical-align: middle;
+	text-align:left;
+	font-size: 30px;
+}
+
+.t6{
+	text-decoration: line-through;
+	line-height: 40px;
+	vertical-align: bottom;
+	color: #bbb;
+	font-size: 13px;
+}
+
+.t7{
+	line-height: 40px;
+	vertical-align: bottom;
+	color: rgb(247,11,66);
+	font-weight: bold;
+	font-size: 13px;
+	text-align: right;
+}
+
+.t8{
+	line-height: 40px;
+	vertical-align: bottom;
+	color:#bbb;
+	font-size: 13px;
+	text-align: left;
+}
