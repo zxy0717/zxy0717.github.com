@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-04-24 08:02:25
+ * @version $Id$
+ */
+
+ .background{
+ 	width: 750px;
+ 	height: 750px;
+ 	background-color: rgb(153,189,144);
+ 	display: flex;
+ }
+
+.big-box-1{
+	border-width: 1px;
+	border-color: rgb(0,0,0);
+	border-style: solid;
+	margin-top: 120px;
+	margin-left: 120px;
+	height: 550px;
+	width: 550px;
+	background-color: rgb(255,255,235);
+}
+
+.big-box-2{
+	position: relative;
+	border-width: 0px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-color: rgb(0,0,0);
+	border-style: solid;
+	top: 380px;
+	height: 170px;
+	width: 550px;
+	background-color: rgb(255,200,234);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.box-1{
+	position: relative;
+	left: 13px;
+	border-width: 1px;
+	border-color: rgb(0,0,0);
+	border-style: solid;
+	width: 520px;
+	height: 30px;
+	line-height: 30px;
+	background-color: rgb(255,255,255);
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+.box-2{
+	position: relative;
+	left: 13px;
+	border-width: 1px;
+	border-color: rgb(0,0,0);
+	border-style: solid;
+	width: 520px;
+	height: 30px;
+	line-height: 30px;
+	background-color: rgb(255,255,255);
+	color: rgb(247,11,66);
+	font-weight: bold;
+}
+
+.box-3{
+	position: relative;
+	left: 13px;
+	border-width: 1px;
+	border-color: rgb(0,0,0);
+	border-style: solid;
+	width: 520px;
+	height: 50px;
+	line-height: 50px;
+	background-color: rgb(255,255,255);
+}
+
+.t3{
+	color: rgb(247,11,66);
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: right;
+}
+
+.t4{
+	color: rgb(247,11,66);
+	font-weight: bold;
+	vertical-align: middle;
+	font-size: 25px;
+}
+
+.t5{
+	text-decoration: line-through;
+	line-height: 40px;
+	vertical-align: bottom;
+	color: #ccc;
+	font-size: 10px;
+}
+
+.t6{
+	line-height: 40px;
+	vertical-align: bottom;
+	color: #ccc;
+	font-size: 10px;
+	text-align: right;
+}
+
+
+
+.tab3 td{
+	width: 115px;
+}
+
+.tab3 td:first-child{
+	width: 15px;
+}
