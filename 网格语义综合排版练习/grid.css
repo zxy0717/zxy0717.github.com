@@ -1,0 +1,344 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-04-27 08:51:25
+ * @version $Id$
+ */
+
+body{
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	height: 100px;
+	width: 1000px;
+	line-height: 25px;
+}
+
+.container{
+}
+
+
+.item1{
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 70px 25px;
+	grid-gap: 4px;
+	align-items:start;
+	text-align: center;
+	font-size: 16px;
+	border-right: none;
+
+}
+
+.item1-route{
+	background-color: rgb(35,141,200);
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	color: #fff;
+}
+
+.item1-time{
+	background-color: rgb(254,71,4);
+	color: #fff;
+	border-radius: 4px;
+	line-height: 20px;
+}
+
+.item2{
+
+	background-color: rgb(35,141,200);
+	width: 1000px;
+	height: 4px;
+}
+
+.item3{
+	border: 1px solid #ddd;
+	border-bottom: hidden;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 200px 40px 100px;
+	align-items:start;
+	font-size: 16px;
+}
+
+.item3-time{
+	font-weight: bold;
+	color: rgb(200,0,1);
+}
+
+.item3-money{
+	font-weight: bold;
+	color: rgb(200,0,1);
+}
+
+.item4{
+	border: 1px solid #ddd;
+	border-top: hidden;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 70px 120px 70px 90px 35px 70px 35px 40px;
+	align-items:start;
+	font-size: 16px;
+}
+
+.item4-time1{
+	font-weight: bold;
+	color: rgb(200,0,1);
+}
+
+.item4-time2{
+	font-weight: bold;
+}
+
+.item4-times{
+	font-weight: bold;
+	color: rgb(200,0,1);
+}
+
+.item4-number{
+	font-weight: bold;
+}
+
+.item5{
+	justify-content: end;
+	border: 1px solid #ddd;
+	border-top: hidden;
+	background-color: rgb(255,251,222);
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 25px 45px 20px 45px;
+	align-items:start;
+	font-size: 16px;
+	text-decoration: underline;
+	color: blue;
+}
+
+.item6{
+	position: relative;
+	top: 5px;
+	line-height: 15px;
+	border: 1px solid #ddd;
+	border-top: hidden;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 592px 100px 100px 100px 100px;
+	grid-gap: 2px;
+	align-items:start;
+	font-size: 16px;
+	text-align: center;
+	color: rgb(103,131,195);
+}
+
+.item6-route{
+	background-color: rgb(206,220,232);
+}
+
+.item6-position{
+	background-color: rgb(206,220,232);
+}
+
+.item6-fee{
+	background-color: rgb(206,220,232);
+}
+
+.item6-fee1{
+	background-color: rgb(206,220,232);
+}
+
+.item6-distance{
+	background-color: rgb(206,220,232);
+}
+
+.item7{
+	border: 1px solid #ddd;
+	border-top: hidden;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 120px 20px 470px 140px 60px 60px 60px 60px;
+	font-size: 16px;
+	color: blue;
+	align-items: center;
+	line-height: 50px;
+	background-color: rgb(242,242,242);
+}
+
+.item7-place{
+	font-size: 25px;
+	color: black;
+	font-weight: bold;
+}
+
+.item7-route{
+	color: black;
+}
+
+.item7-time,.item7-stationMap,.item7-routeMap,.item7-map{
+	text-decoration: underline;
+}
+
+.item8{
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 113px 20px 40px 20px 405px 100px 100px 100px 100px;
+	font-size: 16px;
+	align-items: center;
+}
+
+.item8-1{
+	line-height: 50px;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 100px 100px 100px 100px;
+	text-align: center;
+	align-items: center;
+}
+
+.item8-1 div{
+	height: 50px;
+	width: 100px;
+	border: 1px solid #ddd;
+	border-bottom: hidden;
+	border-top: hidden;
+}
+
+.item8-time{
+	text-align: center;
+}
+
+.item8-new{
+	color: rgb(0,144,241);
+	font-weight: bold;
+}
+
+.item8-train{
+	color: rgb(0,144,241);
+	text-decoration: underline;
+}
+
+
+
+.item8-moneySpecial{
+	line-height: 25px;
+	text-align: center;
+}
+
+
+
+.item8-money{
+
+	font-weight: bold;
+}
+
+.item9{
+	border: 1px solid #ddd;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 110px 20px 480px 140px 60px 60px 60px 60px;
+	font-size: 16px;
+	color: blue;
+	align-items: center;
+	line-height: 25px;
+	background-color: rgb(242,242,242);
+}
+
+.item9-place{
+	font-size: 25px;
+	color: black;
+	font-weight: bold;
+}
+
+.item9-route{
+	color: black;
+}
+
+.item9-time,.item9-stationMap,.item9-routeMap,.item9-map{
+	text-decoration: underline;
+}
+
+.item9-time1{
+	color: black;
+	text-align: center;
+}
+
+.item10{
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 113px 20px 40px 20px 405px 100px 100px 100px 100px;
+	font-size: 16px;
+	align-items: center;
+}
+
+.item10-1{
+	line-height: 50px;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 100px 100px 100px 100px;
+	text-align: center;
+	align-items: center;
+}
+
+.item10-1 div{
+	height: 50px;
+	width: 100px;
+	border: 1px solid #ddd;
+	border-bottom: hidden;
+	border-top: hidden;
+}
+
+.item10-JR{
+	color: rgb(2,141,94);
+	font-weight: bold;
+}
+
+.item10-train{
+	color: rgb(0,144,241);
+	text-decoration: underline;
+	border-right: 1px solid #ddd;
+}
+.item10-time{
+	text-align: center;
+}
+
+.item10-time1{
+	font-weight: bold;
+}
+
+.item10-moneySpecial{
+	text-align: center;
+	border-left: 1px solid #ddd;
+}
+
+.item10-distance{
+	border-left: 1px solid #ddd;
+}
+.item10-money{
+	border-left: 1px solid #ddd;
+	font-weight: bold;
+}
+
+.item11{
+	border: 1px solid #ddd;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 120px 20px 470px 140px 60px 60px 60px 60px;
+	font-size: 16px;
+	color: blue;
+	align-items: center;
+	line-height: 50px;
+	background-color: rgb(242,242,242);
+}
+
+.item11-place{
+	font-size: 25px;
+	color: black;
+	font-weight: bold;
+}
+
+.item11-route{
+	color: black;
+}
+
+.item11-stationMap,.item11-routeMap,.item11-map{
+	text-decoration: underline;
+}
