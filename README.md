@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+# 形体管理
+## 项目成员
+	* 张鑫 `2016210405002` 组长 
+	* 祝夏云 `2016210405048`
+## 项目描述
+		实现一个形体管理的`移动端`，通过对身高、体重的记录，计算BMI值，针对使用者所记录的希望达到的BMI标准，由系统智能推荐套餐方案。并且包含健康统计和健康提醒的功能。
+## 页面设计
+## 数据结构
+## 功能模块
 
-You can use the [editor on GitHub](https://github.com/zxy0717/zxy0717.github.com/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+形体管理
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+一、注册 登陆
+二、身高、体重 计算BMI
+三、所希望达到的体重 套餐推荐
+四、健康统计 
+    1、体重统计
+    2、睡眠统计（时长、入睡时间）
+    3、健康习惯
+       ①水果②八杯水③运动④排便
+五、健康提醒
+    ①吃药提醒
+    ②八杯水提醒（设置固定的时间点）
+    ③水果提醒
+    ④运动
+    ⑤其他（自设定）
+六、软件反馈
+    类似于评价留言，接受用户的反馈意见和建议
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zxy0717/zxy0717.github.com/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
