@@ -1,0 +1,334 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-05-18 20:42:59
+ * @version $Id$
+ */
+
+.container{
+	max-width: 400px;
+  	background: #f1f0ee;
+  	border: 1px solid #ccc;
+}
+
+.head {
+  	height: 50px;
+  	background-color: rgb(6,193,174);
+  	padding: 0;
+  	margin: 0;
+}
+.form-control-1{
+	position: relative;
+	top: 5px;
+	border: none;
+	background-color: rgb(6,193,174);
+	height: 25px;
+	color: white;
+}
+.searchBox
+{
+  	background: #00a695;
+  	width: 100%;
+  	height: 30px;
+  	margin-top: 10px;
+  	color: #fff;
+}
+.searchBoxIcon
+{
+  	margin: 8px;
+}
+.headRight
+{
+  
+  	margin-top: 5px;
+  	margin-left: -10px;
+  	color: white;
+}
+.title {
+  	height: 200px;
+  	background: #fff;
+
+}
+.titleBox {
+  	height: 50%;
+}
+.titleBoxText {
+  	margin-top: 10%;
+  	height: 20%;
+  	color: #aaa;
+  	text-align: center;
+  	line-height: 100%;
+  	font-size: 20px;
+}
+
+.circle1 {
+  	margin-top: 10%;
+  	margin-left: 20%;
+  	color: #ff8915;
+}
+
+.circle2 {
+  	margin-top: 10%;
+  	margin-left: 20%;
+  	color: #ff663f;
+}
+
+
+.circle3 {
+  	margin-top: 10%;
+  	margin-left: 20%;
+  	color: #7089f6;
+}
+.circle4 {
+  	margin-top: 10%;
+  	margin-left: 20%;
+   	color: #ffbc53;
+}
+
+.circle5 {
+  	margin-top: 10%;
+  	margin-left: 20%;
+    color: #00cef0;
+}
+
+.body {
+  	margin-top: 10px;
+  	height: 160px;
+  	background: #fff;
+  	padding: 5px;
+}
+.box1 {
+    height: 100%;
+    padding-top: 1%;
+    padding-left: 5%;
+}
+
+
+.boxTitle {
+    font-size: 20px;
+}
+
+.boxText {
+    color: #aaa;
+    margin-bottom:5px;
+}
+
+.box {
+    width: 90px;
+    height: 90px;
+    background: #666666;
+}
+
+.style1 {
+    color: #00a909;
+}
+.border-right {
+    border-right: 1px solid #ccc;
+}
+
+
+.box2 {
+    height: 50%;
+    padding-top: 1.5%;
+}
+
+.box3 {
+    height: 50%;
+    padding-top: 0;
+}
+.midbox {
+    width: 60px;
+    height: 60px;
+    background: #666666;
+    margin:0px;
+
+}
+
+.smallBox {
+    width: 40px;
+    height: 40px;
+    margin-left: 35%;
+    background: #666666;
+}
+.border-bottom {
+    border-bottom: 1px solid #ccc;
+}
+.style2 {
+    color: #ff3c03;
+}
+.circleRadius{
+    background: #666666;
+    border-radius: 3px;
+    font-size: 12px;
+    width: 20px;
+    height: 15px;
+    color: #fff;
+    text-align: center;
+    display:inline-block;
+}
+ .style3 {
+    color: #ff40a4;
+}
+
+.style4 {
+    color: #ff6a45;
+}
+.style5 {
+    color: #ffb130;
+}
+
+
+.tbody {
+  	margin-top: 10px;
+  	height: 80px;
+  	background: #fff;
+}
+
+.tbox {
+    height: 100%;
+    padding-top: 2%;
+  
+}
+
+.tboxTitle{
+  	font-size: 20px;
+  	margin-left: 10px;
+}
+.tboxText
+{
+   	color: #aaa;
+  	margin-left: 10px;
+}
+
+.bottom {
+  	margin-top: 10px;
+  	height: 480px;
+  	background: #fff;
+}
+
+.nail {
+    background: #8fc7ea;
+    height: 40px;
+}
+
+.bigmd-box {
+    width: 90px;
+    height: 90px;
+    background: #666666;
+}
+
+
+
+.bhead {
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+}
+
+.bbox {
+    height: 110px;
+    padding-top: 10px;
+}
+
+.boxLeft {
+   	margin-left: -20px;
+
+}
+.boxRight {
+   	margin-left: 20px;
+   
+}
+
+.icon {
+  	width: 80px;
+  	height: 80px;
+  	overflow: hidden;
+  	color: #fff;
+  	font-size: 12px;
+}
+
+.icon div {
+  	text-align: center;
+  	line-height: 20px;
+  	transform: rotate(-45deg);
+  	height: 20px;
+  	width: 90px;
+  	position: relative;
+  	left: -20px;
+  	top: 15px;
+  	font-size: 15px;
+  	background-color: #00c3af;
+}
+
+.nailBox1 {
+    font-size: 18px;
+    color: #0bb6d5;
+    line-height: 40px;
+}
+
+.nailBox2 {
+    font-size: 24px;
+    color: #0bb6d5;
+    text-align: right;
+    line-height: 40px;
+    margin-left: 50px;
+}
+
+.text1 {
+    font-size: 20px;
+}
+
+.text2 {
+    font-size: 14px;
+    color: #666;
+    height: 40px;
+}
+
+.info {
+    display: flex;
+}
+
+.price{
+    color: #00c3af;
+    font-size: 18px;
+    margin-right: 8px;
+    width: 25%;
+}
+.price1{
+    color: #00c3af;
+    font-size: 18px;
+    width: 65%
+   
+}
+
+.discount{
+    width: 25%;
+    color: #ffb130;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 4px;
+    border: 1px solid #ffb130;
+    height: 20px;
+}
+
+.count
+{
+  	font-size: 10px;
+ 	color: gray;
+}
+
+.num {
+    padding-top: 8px;
+    font-size: 12px;
+    width: 50%;
+    text-align: right;
+
+}
+.num1{
+    padding-top: 8px;
+    font-size: 12px;
+    width: 35%;
+    text-align: right;
+}
