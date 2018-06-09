@@ -10,22 +10,19 @@
 .container{
 	margin-top: 20px;
 	max-width: 400px;
-}
-
-.information{
 	text-align: center;
 }
 
-#text{
+#information_text{
 	line-height: 50px;
 }
 
-.data{
+#information_data{
 	top: 20px;
 }
 
 .BMI{
-	text-align: center;
+
 	line-height: 50px;
 }
 
@@ -36,6 +33,7 @@
 
 .status{
 	line-height: 10px;
+
 }
 
 #thinnish{
@@ -67,3 +65,17 @@
 	color: grey;
 }
 
+#status_text{
+	line-height: 30px;
+}
+
+
+
+.space{
+	height: 100px;
+}
+
+.buttom{
+	position: fixed;
+	bottom: 0px;
+}

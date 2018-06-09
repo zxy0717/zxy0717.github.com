@@ -15,12 +15,12 @@
 	</head>
 	<body>
 		<div class="container">
-			<div class="information" id="data">
+			<div class="information" id="information_data">
 				<div class="col-xs-4" style="color: orange">19岁</div>
 				<div class="col-xs-4" style="color: orange">110.3斤</div>
 				<div class="col-xs-4" style="color: orange">160cm</div>
 			</div>
-			<div class="information" id="text">
+			<div class="information" id="information_text">
 				<div class="col-xs-4">年龄</div>
 				<div class="col-xs-4">当前体重</div>
 				<div class="col-xs-4">身高（cm）</div>
@@ -29,7 +29,9 @@
 				<div class="level">
 					<div class="col-xs-3"></div>
 					<div class="col-xs-6">您的--<span style="color: orange">BMI 21.6</span>正常</div>
-					<div class="col-xs-3"><i class="fa fa-question-circle"></i></div>
+					<div class="col-xs-3">
+						<i class="fa fa-question-circle"></i>
+					</div>
 				</div>
 				<div class="introduction">BMI:身体质量指数（BMI）是目前国际上常量的衡量人体胖瘦程度以及是否是否健康的一个标准</div>
 			</div>
@@ -42,19 +44,41 @@
 				<div class="col-xs-3" id="chubby"></div>
 				<div class="col-xs-3" id="obesity"></div>
 			</div>
-			<div class="status">
+			<div class="status" id="status_text">
 				<div class="col-xs-3">偏瘦</div>
 				<div class="col-xs-3">正常</div>
 				<div class="col-xs-3">偏胖</div>
 				<div class="col-xs-3">肥胖</div>
 			</div>
-			<div class="status">
-				<div class="col-xs-3">< 18.5</div>
+			<div class="status" id="status_data">
+				<div class="col-xs-3">0~18.5</div>
 				<div class="col-xs-3">18.5~23.9</div>
 				<div class="col-xs-3">24~27.9</div>
-				<div class="col-xs-3">>= 28</div>
+				<div class="col-xs-3">>=28</div>
+			</div>
+			<div class="space"></div>
+			<div class="bottom" id="bottom_icon">
+				<div class="col-xs-3">
+					<i class="fa fa-home"></i>
+				</div>
+				<div class="col-xs-3">
+					<i class="fa fa-suitcase"></i>
+				</div>
+				<div class="col-xs-3">
+					<i class="fa fa-wrench"></i>
+				</div>
+				<div class="col-xs-3">
+					<i class="fa fa-user"></i>
+				</div>
+				<div class="bottom" id="bottom_text">
+					<div class="col-xs-3">首页</div>
+					<div class="col-xs-3">健康分析</div>
+					<div class="col-xs-3">健康管理</div>
+					<div class="col-xs-3">个人中心</div>
+				</div>
 			</div>
 		</div>
+		
 	</body>
 	<script type="text/javascript" src="../js/健康分析.js"></script>
 </html>
