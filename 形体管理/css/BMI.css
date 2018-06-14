@@ -7,12 +7,20 @@
  */
 
 
+ .div{
+ 	position: relative;
+ 	text-align: center;
+
+ }
+
 
 .container{
 	margin-top: 20px;
 	max-width: 400px;
 	text-align: center;
 	font-size: 13px;
+	opacity: 0.5;
+	/*z-index: 1;*/
 }
 
 #information_text{
@@ -82,4 +90,22 @@
 .icon{
 	background: none;
 	border: none;
+}
+
+.introduce{
+	position: absolute;
+	/*float: inherit;*/
+	left: 250px;
+	top: 50px;
+	height: 200px;
+	width: 300px;
+	background-color: orange;
+}
+
+#title{
+	line-height: 40px;
+}
+
+.text{
+	text-align: left;
 }

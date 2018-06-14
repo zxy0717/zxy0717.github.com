@@ -7,16 +7,14 @@
  */
 
 .container{
-/*	background-color: rgb(245,245,245);*/
-	max-width: 500px;
 	margin-top: 20px;
+	max-width: 400px;
 	text-align: center;
+	font-size: 13px;
 }
 
 .name{
-	/*background-color: #fff;*/
 	line-height: 70px;
-	/*vertical-align: middle;*/
 
 }
 
@@ -25,18 +23,14 @@
 }
 
 
-
 .btn{
 	color: orange;
-	background-color: #fff;
+	background: none;
 	text-align: left;
-	border-style: solid;
-	border-width: 1px;
-	border-color: orange;
 }
 
 .information{
-	line-height: 30px;
+	line-height: 50px;
 	text-align: center;
 }
 
@@ -52,4 +46,19 @@
 .bottom{
 	position: fixed;
 	bottom: 0px;
+}
+
+.smile{
+	background: none;
+	border: none;
+}
+
+.advices{
+	background: none;
+	border: none;
+}
+
+.icon{
+	background: none;
+	border: none;
 }
