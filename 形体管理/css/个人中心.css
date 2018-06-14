@@ -8,8 +8,9 @@
 
 .container{
 /*	background-color: rgb(245,245,245);*/
-	max-width: 400px;
+	max-width: 500px;
 	margin-top: 20px;
+	text-align: center;
 }
 
 .name{
@@ -23,6 +24,8 @@
 	text-align: right;
 }
 
+
+
 .btn{
 	color: orange;
 	background-color: #fff;
@@ -33,5 +36,20 @@
 }
 
 .information{
+	line-height: 30px;
 	text-align: center;
+}
+
+.advice{
+	text-align: center;
+	line-height: 50px;
+}
+
+.fa-smile{
+	color: orange;
+}
+
+.bottom{
+	position: fixed;
+	bottom: 0px;
 }
