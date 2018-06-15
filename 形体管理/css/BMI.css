@@ -95,8 +95,8 @@
 .introduce{
 	position: absolute;
 	/*float: inherit;*/
-	left: 250px;
-	top: 50px;
+	left: 40px;
+	top: 200px;
 	height: 200px;
 	width: 300px;
 	background-color: orange;

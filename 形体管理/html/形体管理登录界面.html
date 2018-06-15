@@ -21,21 +21,21 @@
             <div class="page">
                 <h1>LOGIN</h1>
                 <hr>
-                <form class="form-horizontal">
+                <form class="form-horizontal" method="post" action="../php/login.php">
                     <div class="form-group">
                         <label for="phone" class="col-xs-4 control-labe1">user:</label>
                         <div class="col-xs-8">
-                            <input type="text" class="form-control" id="user" placeholder="user">
+                            <input type="text" class="form-control" id="user" placeholder="user" name="uname">
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="password" class="col-xs-4 control-labe1">password:</label>
                         <div class="col-xs-8">
-                            <input type="password" class="form-control" id="password" placeholder="password">
+                            <input type="password" class="form-control" id="password" placeholder="password" name="upass">
                         </div>
                     </div>
                     <div style="text-align:center; width:100%;height:100%;margin:0px; margin-top:40px;margin-bottom: 40px;">
-                        <input type="button" name="submit" value="login" id="button" onclick=" ">
+                        <input type="submit" value="login" id="button" onclick=" ">
                     </div>
                 </form>
             </div>

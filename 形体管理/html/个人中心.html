@@ -8,6 +8,7 @@
 		<meta name="keywords" content="">
 		<link href="" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="../css/个人中心.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
 		<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
 		<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -23,15 +24,15 @@
 				</div>
 			</div>
 			<div class="information" id="information_data">
-				<div class="col-xs-3">110.4斤</div>
-				<div class="col-xs-3">160cm</div>
-				<div class="col-xs-3">19岁</div>
-				<div class="col-xs-3">女</div>
+				<div class="col-xs-3" id="weight"></div>
+				<div class="col-xs-3" id="height"></div>
+				<div class="col-xs-3" id="age"></div>
+				<div class="col-xs-3" id="sex"></div>
 			</div>
 			<div class="information" id="information_text">
-				<div class="col-xs-3">体重</div>
-				<div class="col-xs-3">身高</div>
-				<div class="col-xs-3">年龄</div>
+				<div class="col-xs-3">体重（kg）</div>
+				<div class="col-xs-3">身高（cm）</div>
+				<div class="col-xs-3">年龄（岁）</div>
 				<div class="col-xs-3">性别</div>
 			</div>
 			<div class="advice">
@@ -44,30 +45,34 @@
 					<button class="advices">建议吐槽</button>
 				</div>
 			</div>
-			<div class="bottom" id="bottom_icon">
-				<div class="col-xs-3">
-					<button class="icon"><i class="fa fa-home"></i></button>
+			<div class="bottom">
+				<div id="bottom_icon">
+					<div class="col-xs-3">
+						<button class="icon"><i class="fa fa-home"></i></button>
+					</div>
+					<div class="col-xs-3">
+						<button class="icon"><i class="fa fa-suitcase" onclick="window.location.href='健康分析.html'"></i></button>
+					</div>
+					<div class="col-xs-3">
+						<button class="icon"><i class="fa fa-wrench"></i></button>
+					</div>
+					<div class="col-xs-3">
+						<button class="icon" style="color: orange"><i class="fa fa-user"></i></button>
+					</div>
 				</div>
-				<div class="col-xs-3">
-					<button class="icon" onclick="window.location.href='健康分析.html'"><i class="fa fa-suitcase"></i></button>
-				</div>
-				<div class="col-xs-3">
-					<button class="icon"><i class="fa fa-wrench"></i></button>
-				</div>
-				<div class="col-xs-3">
-					<button class="icon"><i class="fa fa-user" style="color: orange"></i></button>
-				</div>
-				<div class="col-xs-3">
-					<button class="icon">首页</button>
-				</div>
-				<div class="col-xs-3">
-					<button class="icon" onclick="window.location.href='健康分析.html'">健康分析</button>
-				</div>
-				<div class="col-xs-3">
-					<button class="icon">健康管理</button>
-				</div>
-				<div class="col-xs-3" style="color: orange">
-					<button class="icon">个人中心</button>
+				<div id="bottom_text">
+					<div class="col-xs-3">
+						<button class="icon">首页</button>
+					</div>
+					<div class="col-xs-3">
+						<button class="icon" onclick="window.location.href='健康分析.html'">健康分析</button>
+					</div>
+					<div class="col-xs-3">
+						<button class="icon">健康管理</button>
+					</div>
+					<div class="col-xs-3">
+						<button class="icon" style="color: orange">个人中心</button>
+					</div>
 				</div>
 			</div>
 		</div>

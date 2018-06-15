@@ -91,4 +91,22 @@
 		
 	</body>
 	<script type="text/javascript" src="../js/健康分析.js"></script>
+	<?php
+	include("mysql.inc.php");
+	$myTable = 'user';
+	$name='';
+	$password='';
+	$errMsg=''；
+	$user_name=mysqli_query($conn,"select name from $myTable");
+	$user_password=mysqli_query($conn,"select password from $myTable");
+	//检查是否输入信息
+	if(!empty($_POST['name'])&& !empty($_POST[password])){
+		&name=$_POST['name'];
+		&password=&_POST['password'];
+	}
+	else{
+		$errMsg='请输入信息<br>';
+	}
+	
+	?>
 </html>
