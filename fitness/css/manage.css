@@ -1,56 +1,50 @@
 @charset "UTF-8";
-/**
- * 
- * @authors Your Name (you@example.org)
- * @date    2018-06-16 19:52:29
- * @version $Id$
- */
+
 .container{
 	margin-top: 20px;
 	max-width: 400px;
-	text-align: center;
 	font-size: 13px;
+	text-align: center;
 }
 
-#information_text{
+#home{
+	text-align:left;
 	line-height: 30px;
 }
 
-#information_data{
-	top: 20px;
+#title{
+	font-size:18px;
+    color:orange;
 }
-.phase{
-	text-align: left;
-	line-height: 20px;
-	margin-top:300px;
-}
-#phase{
-	width:100px;
-	height:30px;
-	border-radius: 15px;
-	background: #F8F8F8;
-	font-size:15px;
+
+#sport{
+	text-align:left;
 	line-height: 30px;
 }
-.button{
+
+#space{
+	margin-bottom: 100px;
+}
+
+.manage{
+	text-align: center;
+}
+
+.button{;
 	width:80%;
-	margin-top:50px;
+	margin-top:20px;
 	height:40px;
 	border-radius: 15px;
-	background: #F60;
 	font-size:20px;
-	
 }
+
 .bottom{
 	position: fixed;
 	bottom: 0px;
-	background-color: #fff8dc;
-	
+	background-color: white;
 }
-
 
 .icon{
 	background: none;
 	border: none;
-
 }

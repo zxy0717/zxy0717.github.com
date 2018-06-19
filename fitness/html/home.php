@@ -11,8 +11,7 @@ session_start();
 		<title>形体管理</title>
 		<meta name="description" content="">
 		<meta name="keywords" content="">
-		<link href="" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="../css/center.css">
+		<link href="../css/home.css" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
 		<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -21,62 +20,32 @@ session_start();
 	</head>
 	<body>
 		<div class="container">
-			<div class="name">
-				<div class="col-xs-3" id="user">用户名：</div>
-				<div class="col-xs-5" id="name">
-					<?php
-					echo $_SESSION['name'];
-					?>
-				</div>
-				<div class="col-xs-4">
-					<input class="btn" type="button" value="修改资料" style="border: 1px solid orange">
-				</div>
-			</div>
 			<div class="information" id="information_data">
-				<div class="col-xs-3" id="weight">
+				
+				<div class="col-xs-12" style="color: orange;font-size:40px;font-weight: bold;">
 					<?php
-					echo $_SESSION['weight'];
-					echo "kg";
+						echo $_SESSION['weight'];
+						echo "kg";
 					?>
 				</div>
-				<div class="col-xs-3" id="height">
-					<?php
-					echo $_SESSION['height'];
-					echo "cm";
-					?>
-				</div>
-				<div class="col-xs-3" id="age">
-					<?php
-					echo $_SESSION['age'];
-					echo "岁";
-					?>
-				</div>
-				<div class="col-xs-3" id="sex">
-					<?php
-					echo $_SESSION['sex'];
-					?>
-				</div>
+				<div class="col-xs-12" style="font-size: 20px;">当前体重</div>
 			</div>
-			<div class="information" id="information_text">
-				<div class="col-xs-3">体重</div>
-				<div class="col-xs-3">身高</div>
-				<div class="col-xs-3">年龄</div>
-				<div class="col-xs-3">性别</div>
+			
+			<div class="phase">
+				<div class="col-xs-6" id="phase">第1阶段</div>
+				<div class="col-xs-6" id="phase">第2阶段</div>
+				<div class="col-xs-12">1、两个阶段塑型，每个阶段为14天。</div>
+				<div class="col-xs-12">2、您需要经历两个阶段，想要有更好看的身材，一定要坚持第二阶段！</div>
 			</div>
-			<div class="advice">
+			<div class="manage">
 				<div class="col-xs-12">
-					<button class="smile"><i class="fa fa-smile"></i></button>
-				</div>
-			</div>
-			<div class="text">
-				<div class="col-xs-12">
-					<input class="btn" type="button" value="建议吐槽">
+					<button class="button" onclick="window.location.href='diet.html'">开始我的体重管理</button>
 				</div>
 			</div>
 			<div class="bottom">
 				<div id="bottom_icon">
 					<div class="col-xs-3">
-						<button class="icon" onclick="window.location.href='home.php'"><i class="fa fa-home"></i></button>
+						<button class="icon"><i class="fa fa-home" style="color: orange" onclick="window.location.href='home.php'"></i></button>
 					</div>
 					<div class="col-xs-3">
 						<button class="icon"><i class="fa fa-suitcase" onclick="window.location.href='analyse.php'"></i></button>
@@ -85,12 +54,12 @@ session_start();
 						<button class="icon" onclick="window.location.href='manage.php'"><i class="fa fa-wrench"></i></button>
 					</div>
 					<div class="col-xs-3">
-						<button class="icon" style="color: orange" onclick="window.location.href='center.php'"><i class="fa fa-user"></i></button>
+						<button class="icon"><i class="fa fa-user" onclick="window.location.href='center.php'"></i></button>
 					</div>
 				</div>
 				<div id="bottom_text">
 					<div class="col-xs-3">
-						<button class="icon" onclick="window.location.href='home.php'">首页</button>
+						<button class="icon" style="color: orange" onclick="window.location.href='home.php'">首页</button>
 					</div>
 					<div class="col-xs-3">
 						<button class="icon" onclick="window.location.href='analyse.php'">健康分析</button>
@@ -99,7 +68,7 @@ session_start();
 						<button class="icon" onclick="window.location.href='manage.php'">健康管理</button>
 					</div>
 					<div class="col-xs-3">
-						<button class="icon" style="color: orange" onclick="window.location.href='center.php'">个人中心</button>
+						<button class="icon" onclick="window.location.href='center.php'">个人中心</button>
 					</div>
 				</div>
 			</div>
